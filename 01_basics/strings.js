@@ -14,3 +14,10 @@ let phone_number="56589272";
 let number_as_string="87866";
 console.log(`The output of "number_as_string" is ${number_as_string} and it's data-type is ${typeof number_as_string}.`)
 
+let message="Today, Rahul Gandhi has exposed the scam going on with the voter's lists by Election Commission."
+
+// if we want to calculate the number of characters and the number of whitespaces between these quotes we can use the length property of strings
+
+const length_message=message.length;
+console.log(message);
+console.log(`The length of this string is ${length_message}`);
